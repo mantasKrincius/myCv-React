@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from '../../assets/profilePic.jpg'
-
+import './Profile.css'
 
 export default function Profile() {
     return (
@@ -29,7 +29,7 @@ export default function Profile() {
                         <h5>Name:</h5>
                         <p>Mantas</p>
                         <h5>Age:</h5>
-                        <p>34</p>
+                        <p>33y</p>
                         <h5>Location:</h5>
                         <p>Siauliai, Lithuania</p>
                         <i className="fab fa-facebook"></i>

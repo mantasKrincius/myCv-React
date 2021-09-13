@@ -1,0 +1,8 @@
+i {
+    width: 30px;
+    font-size: 30px;
+}
+
+i:hover {
+    color: #2de4fc;
+}

@@ -1,23 +1,39 @@
 import React from "react";
+import emailjs from 'emailjs-com'
+import './ContactForm.css'
 
+export default function ContactForm() {
 
+    function sendEmail(e) {
+        e.preventDefault();
 
-// export default function ContactForm (){
-//     return (
-//         <div>
-//             <div>
-//                 <form className="forma d-flex f-column" style={{display: "flex", flexDirection: "column", width:"300px"}} action="index.php" method="POST">
-//                     <label htmlFor="name"> Jūsų vardas </label>
-//                     <input input type="text" id="name" name="name" placeholder="Įveskite vardą" required/>
-//                         <label htmlFor="email"> Jūsų emailas</label>
-//                         <input type="email" className="form-control" id="email" name="email"
-//                                placeholder="Įveskite emailą" required/>
-//                             <label htmlFor="message">Jūsų žinutė</label>
-//                             <textarea className="form-control" id="message" name="message" placeholder="Jūsų žinutė"
-//                                       rows="4" cols="50" required></textarea>
-//                             <button type="submit" value="send">Siųsti</button>
-//                 </form>
-//             </div>
-//         </div>
-//     )
-// }
+        emailjs.sendForm('service_jwgh9t7', 'template_ne195wq', e.target, 'user_Bl0nvkYscjMLBfzE1UygG')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
+    }
+
+    return (
+        <div>
+            <div className="main-form-div">
+                <form className="form d-flex"
+                      style={{display: "flex", flexDirection: "column", width: "300px"}} onSubmit={sendEmail}>
+                    <label> Name </label>
+                    <input type="text" name="name" placeholder="Enter Your name" required/>
+                    <label> Subject </label>
+                    <input type="text" name="subject" placeholder="Subject" required/>
+                    <label> Enter your email</label>
+                    <input type="email" className="form-control" name="email"
+                           placeholder="Enter Your email" required/>
+                    <label>Your Message</label>
+                    <textarea className="form-control" name="message" placeholder="Your message"
+                              rows="4" cols="50" required></textarea>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+    )
+}
