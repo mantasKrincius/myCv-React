@@ -19,15 +19,14 @@ export default function ContactForm() {
     return (
         <div>
             <div className="main-form-div">
-                <form className="form d-flex"
+                <form className="contact-form"
                       style={{display: "flex", flexDirection: "column", width: "300px"}} onSubmit={sendEmail}>
                     <label> Name </label>
                     <input type="text" name="name" placeholder="Enter Your name" required/>
                     <label> Subject </label>
                     <input type="text" name="subject" placeholder="Subject" required/>
                     <label> Enter your email</label>
-                    <input type="email" className="form-control" name="email"
-                           placeholder="Enter Your email" required/>
+                    <input type="email" name="email" placeholder="Enter Your email" required/>
                     <label>Your Message</label>
                     <textarea className="form-control" name="message" placeholder="Your message"
                               rows="4" cols="50" required></textarea>

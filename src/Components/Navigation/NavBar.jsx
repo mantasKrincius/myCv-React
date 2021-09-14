@@ -17,10 +17,10 @@ const NavBar = props => {
                 <div className="navBarNavigationItem">
                     <ul className="main-navigation">
                         <li><a href="/">Profile</a></li>
-                        <li><a href="/">Profile</a></li>
-                        <li><a href="/">Profile</a></li>
-                        <li><a href="/">Profile</a></li>
-                        <li><a href="/">Profile</a></li>
+                        <li><a href="/">Experience</a></li>
+                        <li><a href="/">Abilities</a></li>
+                        <li><a href="/">Github Projects</a></li>
+                        <li><a href="/">Message me!</a></li>
                     </ul>
                 </div>
             </nav>

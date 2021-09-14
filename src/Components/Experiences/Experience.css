@@ -1,0 +1,29 @@
+.exp-education-main-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+
+.education-table {
+
+}
+
+.exp-education-bg1 {
+    background-color: gainsboro;
+}
+
+.exp-education-bg2 {
+    background-color: #b3adad;
+}
+
+.exp-education-bg3 {
+    background-color: #e8e4e4;
+}
+
+.wrapper {
+    width: 400px;
+}
+
+
+
