@@ -47,9 +47,9 @@ export default function Experiences() {
                         <h5>Fullstack</h5>
                         <h5>2020</h5>
                     </div>
-                    <div className="wrapper"    >
+                    <div className="wrapper">
                         <p>Full acquaintance with websites, structures. Programming languages like javascript, php.
-                                Working with mysql database (phpmyadmin). HTML, CSS, CEO features.</p>
+                            Working with mysql database (phpmyadmin). HTML, CSS, CEO features.</p>
                     </div>
                 </div>
                 <div className="exp-education-main-div exp-education-bg3">
@@ -59,7 +59,8 @@ export default function Experiences() {
                         <h5>2006 - 2009</h5>
                     </div>
                     <div className="wrapper">
-                        <p>Visual DataBase, MS Visual Basic, IT architecture, computer networks and many more... That was looong time ago.</p>
+                        <p>Visual DataBase, MS Visual Basic, IT architecture, computer networks and many more... That
+                            was looong time ago.</p>
                     </div>
                 </div>
             </div>
@@ -70,44 +71,46 @@ export default function Experiences() {
                     - Talib Kweli</p>
             </div>
             <hr style={{color: "blue"}}/>
-            <div style={{display: "flex", justifyContent: "center", alignItems: "center",}}>
-                <table>
-                    <tbody>
-                    <tr>
-                        <th>Soft Skills</th>
-                    </tr>
-                    <tr>
-                        <td style={{width: "400px"}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                            corporis cum dolor doloribus eius libero, magni minima neque placeat quaerat quos rerum
-                            saepe vitae? Labore minus nemo neque obcaecati perspiciatis!
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Hard Skills</th>
-                    </tr>
-                    <tr>
-                        <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis cum dolor
-                            doloribus eius libero, magni minima neque placeat quaerat quos rerum saepe vitae? Labore
-                            minus nemo neque obcaecati perspiciatis!
-                        </td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div>
+                <div>
+                    <h3>Soft Skills</h3>
+                    <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center",}}>
+                        <div>
+                            <p>Perseverance</p>
+                            <p>Career pursuit</p>
+                            <p>The desire to improve as a personality</p>
+                            <p>Loyalty</p>
+                            <p>The desire to always learn</p>
+                        </div>
+                        <div>
+                            <p>Innovation</p>
+                            <p>Team member</p>
+                            <p>Problem-solving</p>
+                            <p>Communication skills</p>
+                            <p>The ability to work well under pressure</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div style={{display: "flex", justifyContent: "center"}}>
-                <table>
-                    <tbody>
-                    <tr>
-                        <th>Languages</th>
-                    </tr>
-                    <tr>
-                        <td style={{width: "400px"}}>Lithuanian</td>
-                    </tr>
-                    <tr>
-                        <td>English</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <div>
+                <div>
+                    <h3>Hard Skills</h3>
+                    <div style={{display: "flex", justifyContent: "space-around", alignItems: "center",}}>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>React/redux </p>
+                        <p>Vue.js/vuex</p>
+                        <p>Node.js</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h3>Languages</h3>
+                <div style={{display: "flex", justifyContent: "space-evenly"}}>
+                    <p>English</p>
+                    <p>Lithuania</p>
+                </div>
             </div>
         </div>
     )
