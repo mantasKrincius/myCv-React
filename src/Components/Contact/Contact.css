@@ -1,7 +1,8 @@
 .contact-social-icons {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
-.contact-social-icons i {
-    padding: 10px;
-}
+
+
+

@@ -36,8 +36,8 @@ export default function Experiences() {
                                 <li>Mongoose database</li>
                             </ul>
                         </div>
-                        <p>React</p>
-                        <p>Vue.js</p>
+                        <p>React 120h</p>
+                        <p>Vue.js 80h</p>
 
                     </div>
                 </div>
@@ -48,7 +48,7 @@ export default function Experiences() {
                         <h5>2020</h5>
                     </div>
                     <div className="wrapper">
-                        <p>Full acquaintance with websites, structures. Programming languages like javascript, php.
+                        <p>270h duration course. Full acquaintance with websites, structures. Programming languages like javascript, php.
                             Working with mysql database (phpmyadmin). HTML, CSS, CEO features.</p>
                     </div>
                 </div>

@@ -32,7 +32,16 @@ export default function ContactForm() {
                               rows="4" cols="50" required></textarea>
                     <button>Send</button>
                 </form>
+                <div className="contact-form-additional">
+                    <label>Email:</label>
+                    <h4> mantaskrincius@gmail.com</h4>
+                    <div>
+                        <i className="fas fa-phone"><h4>+370 60711599</h4></i>
+                    </div>
+
+                </div>
             </div>
+
         </div>
     )
 }

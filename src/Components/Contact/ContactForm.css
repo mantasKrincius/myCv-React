@@ -1,9 +1,26 @@
 .main-form-div {
     display: flex;
     justify-content: center;
+    padding-top: 40px;
 }
 
 .contact-form {
-    border: 1px solid black;
+    border: 1px solid #f1f1f1;
     padding: 10px;
+    background-color: #f1f1f1;
+    height: 300px;
 }
+
+.contact-form-additional {
+    height: 350px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -40px;
+    padding: 40px;
+
+}
+

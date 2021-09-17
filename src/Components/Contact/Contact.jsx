@@ -1,7 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 import './Contact.css'
-
+import '../Profile/Profile.css'
 export default function Contact() {
     return (
         <div style={{backgroundColor: "gray"}}>
@@ -11,9 +11,15 @@ export default function Contact() {
             <div>
                 <hr/>
                 <div className="contact-social-icons">
-                    <i className="fab fa-facebook"></i>
-                    <i className="fab fa-linkedin"></i>
-                    <i className="fab fa-github"></i>
+                        <a className="btn" href="#">
+                            <i className="fab fa-facebook"></i>
+                        </a>
+                        <a className="btn" href="#">
+                            <i className="fab fa-linkedin"></i>
+                        </a>
+                        <a className="btn" href="#">
+                            <i className="fab fa-github"></i>
+                        </a>
                 </div>
                 <ContactForm/>
                 <hr/>
