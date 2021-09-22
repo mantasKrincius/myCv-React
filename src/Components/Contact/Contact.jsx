@@ -11,15 +11,15 @@ export default function Contact() {
             <div>
                 <hr/>
                 <div className="contact-social-icons">
-                        <a className="btn" href="#">
-                            <i className="fab fa-facebook"></i>
-                        </a>
-                        <a className="btn" href="#">
-                            <i className="fab fa-linkedin"></i>
-                        </a>
-                        <a className="btn" href="#">
-                            <i className="fab fa-github"></i>
-                        </a>
+                    <a className="btn" href="https://www.facebook.com/mantas.krinciuszoo">
+                        <i className="fab fa-facebook"></i>
+                    </a>
+                    <a className="btn" href="https://linkedin.com/in/mantas-krincius">
+                        <i className="fab fa-linkedin"></i>
+                    </a>
+                    <a className="btn" href="https://github.com/mantasKrincius">
+                        <i className="fab fa-github"></i>
+                    </a>
                 </div>
                 <ContactForm/>
                 <hr/>

@@ -30,13 +30,13 @@ export default function Profile() {
                         <h3><a href="mailto:mantaskrincius@gmail.com"><i className="far fa-envelope"></i>mantaskrincius@gmail.com</a></h3>
                         <h3><i className="fas fa-map-marker-alt"></i>Siaulai, Lithuania</h3>
                         <div className="social-media">
-                            <a className="btn" href="#">
+                            <a className="btn" href="https://www.facebook.com/mantas.krinciuszoo">
                                 <i className="fab fa-facebook"></i>
                             </a>
-                            <a className="btn" href="#">
+                            <a className="btn" href="https://linkedin.com/in/mantas-krincius">
                                 <i className="fab fa-linkedin"></i>
                             </a>
-                            <a className="btn" href="#">
+                            <a className="btn" href="https://github.com/mantasKrincius">
                                 <i className="fab fa-github"></i>
                             </a>
                         </div>
