@@ -1,13 +1,13 @@
 :root {
     --bg-color: black;
-    --typewriterSpeed: 6s;
-    --typewriterCharacters: 24;
+    --typewriterSpeed: 8s;
+    --typewriterCharacters: 22;
 }
 
 h1 {
-    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    font-size: clamp(1rem, 2vw + 1rem, 3rem);
     position: relative;
-    font-family: "Source Code Pro", monospace;
+    font-family: 'Space Mono', monospace;
     padding: 15px;
     width: max-content;
     color: #f4f0ec;
