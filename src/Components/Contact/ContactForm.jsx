@@ -1,6 +1,7 @@
 import React from "react";
 import emailjs from 'emailjs-com'
 import './ContactForm.css'
+import CV from '../../assets/Mantas Krincius.pdf'
 
 export default function ContactForm() {
 
@@ -19,26 +20,26 @@ export default function ContactForm() {
     return (
         <div>
             <div className="main-form-div">
-                <form className="contact-form"
-                      style={{display: "flex", flexDirection: "column", width: "300px"}} onSubmit={sendEmail}>
+                <form className="contact-form" onSubmit={sendEmail}>
                     <label> Name </label>
                     <input type="text" name="name" placeholder="Enter Your name" required/>
                     <label> Subject </label>
-                    <input type="text" name="subject" placeholder="Subject" required/>
+                    <input type="text" name="subject" placeholder="Enter subject" required/>
                     <label> Enter your email</label>
                     <input type="email" name="email" placeholder="Enter Your email" required/>
                     <label>Your Message</label>
-                    <textarea className="form-control" name="message" placeholder="Your message"
+                    <textarea className="form-control" name="message" placeholder="Leave Your message"
                               rows="4" cols="50" required></textarea>
-                    <button>Send</button>
-                </form>
-                <div className="contact-form-additional">
-                    <label>Email:</label>
-                    <h4> mantaskrincius@gmail.com</h4>
-                    <div>
-                        <i className="fas fa-phone"><h4>+370 60711599</h4></i>
+                    <div className="form-button">
+                        <button>Send</button>
                     </div>
-
+                </form>
+                <div className="contact-form-info">
+                    <h3><i className="fas fa-user-alt"></i>Mantas Krincius</h3>
+                    <h3><a href="tel:+37060711595"><i className="fas fa-phone"></i>+370 607 11599</a></h3>
+                    <h3><a href="mailto:mantaskrincius@gmail.com"><i className="far fa-envelope"></i>mantaskrincius@gmail.com</a></h3>
+                    <h3><i className="fas fa-map-marker-alt"></i>Siaulai, Lithuania</h3>
+                    <button>  <a href={CV} download="Mantas Krincius CV">Download my CV</a></button>
                 </div>
             </div>
 

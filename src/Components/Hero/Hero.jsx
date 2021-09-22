@@ -1,10 +1,19 @@
 import React from "react";
 import banner from '../../assets/banner.jpg'
+import HeroText from "./HeroText";
+import './Hero.css'
 
-export default function Hero (){
+export default function Hero() {
     return (
         <div>
-            <img style={{height: "450px", width: "100%", marginTop: "-5px"}} src={banner} alt="<a href='https://pngtree.com/free-backgrounds'>free background photos from pngtree.com/</a>"/>
+            <div className="main-hero-text-div" style={{
+                backgroundImage: `url(${banner})`,
+            }}>
+                <div className="hero-text">
+                    <HeroText/>
+                </div>
+
+            </div>
         </div>
     )
 }

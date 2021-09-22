@@ -1,7 +1,14 @@
+li:hover {
+    border: 8px solid #3498db;
+    font-weight: 600;
+    border-radius: 50%;
+    transition: 1s;
+}
+
 .navBar {
     position: fixed;
     width: 100%;
-    background-color: wheat;
+    background-color: #1d1a1a;
     height: 50px;
     top: 0;
     left: 0;
@@ -47,7 +54,7 @@
 
 .navBarNavigationItem a:hover,
 .navBarNavigationItem a:active {
-    color: blue;
+  color: #f4f0ec;
 }
 
 @media (max-width: 768px) {

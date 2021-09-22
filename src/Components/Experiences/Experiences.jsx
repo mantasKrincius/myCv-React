@@ -48,7 +48,8 @@ export default function Experiences() {
                         <h5>2020</h5>
                     </div>
                     <div className="wrapper">
-                        <p>270h duration course. Full acquaintance with websites, structures. Programming languages like javascript, php.
+                        <p>270h duration course. Full acquaintance with websites, structures. Programming languages like
+                            javascript, php.
                             Working with mysql database (phpmyadmin). HTML, CSS, CEO features.</p>
                     </div>
                 </div>
@@ -64,54 +65,57 @@ export default function Experiences() {
                     </div>
                 </div>
             </div>
+            <section id="abilities">
+                <div>
+                    <h2>Abilities</h2>
+                    <p>“Life without knowledge is death in disguise.”
+                        - Talib Kweli</p>
+                </div>
+                <hr style={{color: "blue"}}/>
+                <div>
+                    <div>
+                        <h3>Soft Skills</h3>
+                        <div className="soft-skills-wrapper">
+                            <div className="skill-hover">
+                                <p>Perseverance</p>
+                                <p>Career pursuit</p>
+                                <p>The desire to improve as a personality</p>
+                                <p>Loyalty</p>
+                                <p>The desire to always learn</p>
+                            </div>
+                            <div className="skill-hover">
+                                <p>Innovation</p>
+                                <p>Team member</p>
+                                <p>The ability to work under pressure</p>
+                                <p>Problem-solving</p>
+                                <p>Communication skills</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Hard Skills</h3>
+                        <div style={{display: "flex", justifyContent: "space-around", alignItems: "center",}}
+                             className="hard-skills-wrapper">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JavaScript</p>
+                            <p>React/redux </p>
+                            <p>Vue.js/vuex</p>
+                            <p>Node.js/express/mongoDB</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
 
-            <div>
-                <h2>Abilities</h2>
-                <p>“Life without knowledge is death in disguise.”
-                    - Talib Kweli</p>
-            </div>
-            <hr style={{color: "blue"}}/>
-            <div>
-                <div>
-                    <h3>Soft Skills</h3>
-                    <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "center",}}>
-                        <div>
-                            <p>Perseverance</p>
-                            <p>Career pursuit</p>
-                            <p>The desire to improve as a personality</p>
-                            <p>Loyalty</p>
-                            <p>The desire to always learn</p>
-                        </div>
-                        <div>
-                            <p>Innovation</p>
-                            <p>Team member</p>
-                            <p>Problem-solving</p>
-                            <p>Communication skills</p>
-                            <p>The ability to work well under pressure</p>
-                        </div>
+                    <h3>Languages</h3>
+                    <div style={{display: "flex", justifyContent: "space-evenly"}}>
+                        <p>English</p>
+                        <p>Lithuanian</p>
                     </div>
                 </div>
-            </div>
-            <div>
-                <div>
-                    <h3>Hard Skills</h3>
-                    <div style={{display: "flex", justifyContent: "space-around", alignItems: "center",}}>
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>React/redux </p>
-                        <p>Vue.js/vuex</p>
-                        <p>Node.js</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h3>Languages</h3>
-                <div style={{display: "flex", justifyContent: "space-evenly"}}>
-                    <p>English</p>
-                    <p>Lithuania</p>
-                </div>
-            </div>
+            </section>
         </div>
     )
 }

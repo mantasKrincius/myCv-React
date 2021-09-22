@@ -1,0 +1,12 @@
+.hero-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.main-hero-text-div {
+
+    height: 400px;
+    margin-top: -5px
+}

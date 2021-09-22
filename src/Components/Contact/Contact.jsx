@@ -4,7 +4,7 @@ import './Contact.css'
 import '../Profile/Profile.css'
 export default function Contact() {
     return (
-        <div style={{backgroundColor: "gray"}}>
+        <div style={{backgroundColor: "gray", padding: "10px"}}>
             <h2>Contact</h2>
             <p>If I had asked people what they wanted, they would have said faster horses. ”
                 - Henry Ford </p>

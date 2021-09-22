@@ -1,6 +1,7 @@
 .main-form-div {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-top: 40px;
 }
 
@@ -8,19 +9,62 @@
     border: 1px solid #f1f1f1;
     padding: 10px;
     background-color: #f1f1f1;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
 }
 
-.contact-form-additional {
-    height: 350px;
-    background-color: #f1f1f1;
+.contact-form label {
+    margin: 5px;
+    font-weight: 600;
+}
+
+.contact-form input {
+    padding: 10px;
+}
+
+.contact-form button {
+    width: 100px;
+}
+
+.contact-form button:hover {
+    background-color: #3498db;
+    transition: 1s;
+    padding-left: 35px;
+}
+
+.form-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.contact-form-info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    top: -40px;
-    padding: 40px;
-
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f4f0ec;
+}
+.contact-form-info i {
+    margin: 5px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #3498db;
+}
+
+@media screen and (max-width: 700px) {
+    .contact-form-info {
+        margin-top: 20px;
+    }
+}
