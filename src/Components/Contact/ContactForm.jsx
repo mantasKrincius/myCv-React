@@ -36,7 +36,7 @@ export default function ContactForm() {
                 </form>
                 <div className="contact-form-info">
                     <h3><i className="fas fa-user-alt"></i>Mantas Krincius</h3>
-                    <h3><a href="tel:+37060711595"><i className="fas fa-phone"></i>+370 607 11599</a></h3>
+                    <h3><a href="tel:+37060711595"><i className="fas fa-phone"></i>+370 607 11595</a></h3>
                     <h3><a href="mailto:mantaskrincius@gmail.com"><i className="far fa-envelope"></i>mantaskrincius@gmail.com</a></h3>
                     <h3><i className="fas fa-map-marker-alt"></i>Siaulai, Lithuania</h3>
                     <button>  <a href={CV} download="Mantas Krincius CV">Download my CV</a></button>
