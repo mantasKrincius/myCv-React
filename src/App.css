@@ -13,8 +13,8 @@ html {
 
 }
 
-@media (min-width: 769px) {
-     body {
-        overflow: hidden;
+@media (max-width: 769px) {
+     html {
+        overflow-x: hidden;
     }
 }
