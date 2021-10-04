@@ -1,14 +1,14 @@
 :root {
     --bg-color: black;
     --typewriterSpeed: 8s;
-    --typewriterCharacters: 22;
+    --typewriterCharacters: 23;
 }
 
 h1 {
     font-size: clamp(1rem, 2vw + 1rem, 3rem);
     position: relative;
     font-family: 'Space Mono', monospace;
-    width: max-content;
+    /*width: max-content;*/
     color: #f4f0ec;
     padding: 5px;
     /*width: 100%;*/
