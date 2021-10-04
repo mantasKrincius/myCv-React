@@ -10,6 +10,7 @@ h1 {
     font-family: 'Space Mono', monospace;
     width: max-content;
     color: #f4f0ec;
+    padding: 5px;
     /*width: 100%;*/
 }
 
@@ -34,7 +35,7 @@ h1::after {
     background: black;
     animation: typewriter var(--typewriterSpeed)
     steps(var(--typewriterCharacters)) 1s forwards,
-    blink 750ms steps(var(--typewriterCharacters)) infinite;
+    /*blink 750ms steps(var(--typewriterCharacters)) infinite;*/
 }
 
 .subtitle {
