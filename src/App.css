@@ -14,7 +14,7 @@ html {
 }
 
 @media (min-width: 769px) {
-    html, body {
-        overflow-x: hidden;
+     body {
+        overflow: hidden;
     }
 }
